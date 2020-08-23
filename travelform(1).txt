@@ -1,0 +1,33 @@
+ 1 <html>
+    2     <body>
+    3         <h1>TRAVEL RESERVATION FORM </h1>
+    4         <h3>* denotes mandatory</h3>
+    5         <input name="passengername" placeholder="Name"/>
+    6        <input type="tel" id="phone" name="mobile" placeholder="*Mobile Number" field=mandatory required/><br/>
+    7        <input type="email" id="email" name="mailId" placeholder="*Email ID" field=mandatory required/>
+    8        <select name="travelmonth" format="MonYYYY"><option value="Month of Travel">Month of Travel</option>
+    9        <option value="Aug2018">Aug2018</option>
+   10        <option value="Sep2018">Sep2018</option>
+   11        <option value="Oct2018">Oct2018</option>
+   12        <option value="Nov2018">Nov2018</option>
+   13        <option value="Dec2018">Dec2018</option>
+   14        <option value="Jan2019">Jan2019</option>
+   15        <option value="Feb2019">Feb2019</option>
+   16        <option value="Mar2019">Mar2019</option>
+   17        <option value="Apr2019">Apr2019</option>
+   18        </select><br/>
+   19        <select name="package"><option value="*Origin">*Origin</option>
+   20        <option value="GOA">GOA</option>
+   21        <option value="MUMBAI">MUMBAI</option>
+   22        <option value="KERALA">KERALA</option>
+   23        <option value="TAMILNADU">TAMILNADU</option>
+   24        <option value="KOLKATA">KOLKATA</option></select>
+   25        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   26         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="destination" placeholder="Destination"/><br/>
+   27         <button type="submit" name="submit" value="Get A Call">Get A Call</button>
+   28         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   29         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   30         <button type="reset" name="clear" value="Clear">Clear</button>
+   31     </body>
+   32 </html>
+Grade

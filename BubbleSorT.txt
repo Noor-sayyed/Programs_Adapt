@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>`substitute(Filename('', 'Page Title'), '^.', '\u&','')`</title>
+        <script>
+            function bubble_sort(){
+                var x = document.getElementById("name").value;
+                x=x.split(',');
+                f=function(a,b){
+                    return a>b?1:-1;
+                }
+                a=x.map(Number).sort(f);
+                alert(a);
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            Enter data to sort
+            <input type="text" id="name" name="mydata" value=""/><br/>
+            <button type="submit" onclick="bubble_sort()" name="databtn">Sort Data</button>
+        </div>
+    </body>
+</html>

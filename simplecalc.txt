@@ -1,0 +1,17 @@
+ 1 <html>
+    2 <body>
+    3     <font size="20" color="blue">Calculator</font>
+    4 <header><p><img src="calculator.jpg" height="300" width="400" ></p></header>
+    5 Input1<input type="number" name="input1"/><br/>
+    6 Input2<input type="number" name="input2"/><br/>
+    7 Select Operation<select name="operation">
+    8     <option value="Select..">Select..</option>
+    9     <option value="ADD">ADD</option>
+   10     <option value="SUBTRACT">SUBTRACT</option>
+   11     <option value="MULTIPLY">MULTIPLY</option>
+   12     <option value="DIVIDE">DIVIDE</option>
+   13 </select><br/>
+   14 <input button type="image" img src="calc.jpg" name="submit" height="80" width="80">
+   15 <input button type="image" img src="reset.jpg" name="reset" height="80" width="80">
+   16 </body>
+   17 </html>
